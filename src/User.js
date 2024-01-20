@@ -1,6 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
 import { userSlice, getUser } from "./store/user/userSlice";
 import { useState } from "react";
+import "./user.css";
 
 export function User() {
   const [loading, setLoading] = useState(false);

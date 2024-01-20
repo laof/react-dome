@@ -1,5 +1,4 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import "./user.css";
 
 export const getUser = createAsyncThunk("test", () => {
   return new Promise((resolve) => {
